@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  # Untuk membuat container nginx-example
+  nginx-example:
+    image: nginx:latest
+    container_name: nginx-example
+
+  # Untuk membuat container mongo-example
+  mongodb-example:
+    image: mongo:latest
+    container_name: mongodb-example
