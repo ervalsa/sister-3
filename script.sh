@@ -1,4 +1,5 @@
 docker container logs nama-container
+docker container stats
 docker compose create
 docker compose start
 docker compose ps
